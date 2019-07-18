@@ -40,7 +40,8 @@
         android:gravity="center"
         android:text="CLOSE"
         android:textStyle="bold"
-        tools:ignore="HardcodedText" />
+        tools:ignore="HardcodedText"
+        android:layout_alignParentRight="true" />
 
     <Button
         android:id="@+id/buttonRestart"

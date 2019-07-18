@@ -17,28 +17,28 @@
             <TextView
                 android:id="@+id/textQuestion"
                 android:layout_width="match_parent"
-                android:padding="10dp"
+                android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
-                android:text="QUESTION"
                 android:lines="4"
+                android:padding="10dp"
+                android:text="QUESTION"
                 android:textColor="@color/colorPrimary"
                 android:textStyle="bold"
-                android:layout_height="wrap_content"
                 tools:ignore="HardcodedText" />
 
             <TextView
                 android:layout_width="match_parent"
-                android:padding="10dp"
-                android:gravity="center"
-                android:textColor="@android:color/black"
-                android:text="Select Answer"
                 android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Select Answer"
+                android:textColor="@android:color/black"
                 tools:ignore="HardcodedText" />
 
-            <com.trimaxdevelopers.myqa.customviews.RecyclerViewNonScrollable
+            <mvvmdemo.latitude.com.aeorjope.customeViews.RecyclerViewNonScrollable
                 android:id="@+id/rvOptions"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"/>
+                android:layout_height="match_parent" />
 
         </LinearLayout>
 
